@@ -1,0 +1,42 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  --light-red: rgb(212, 143, 155);
+  --red: rgb(225, 63, 93);
+  --light-blue: rgb(168, 179, 235);
+  --blue: rgb(85, 112, 242);
+  --dark-blue: rgb(50, 69, 164);
+  --light-yellow: rgb(214, 198, 161);
+  --yellow: rgb(228, 170, 39);
+  --light-grey: rgb(94, 111, 137);
+  --grey: rgb(233, 232, 235);
+  --dark-grey: rgb(119, 119, 119);
+  --dark-navy: rgb(24, 35, 67);
+  --light-navy: rgb(43, 56, 78);
+  --navy: rgb(60, 66, 98);
+  --shadow-light: rgba(0, 0, 0, 0.15);
+  --shadow-medium: rgba(0, 0, 0, 0.3);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: radial-gradient(circle 50vh at 50% 0, var(--light-navy), var(--dark-navy));
+  min-height: 100vh;
+}
