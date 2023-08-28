@@ -10,7 +10,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   --light-red: rgb(212, 143, 155);
   --red: rgb(225, 63, 93);
   --light-blue: rgb(168, 179, 235);
@@ -26,6 +26,7 @@
   --navy: rgb(60, 66, 98);
   --shadow-light: rgba(0, 0, 0, 0.15);
   --shadow-medium: rgba(0, 0, 0, 0.3);
+  color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
